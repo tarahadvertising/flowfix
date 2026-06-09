@@ -9,7 +9,7 @@ export default function AnimatedBackground({ className = "" }) {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/banner.webp')",
+          backgroundImage: "url('./banner.webp')",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-navy-900/92 via-navy-900/80 to-navy-900/95" />

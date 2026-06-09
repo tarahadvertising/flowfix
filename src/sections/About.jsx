@@ -33,7 +33,7 @@ export default function About() {
             <div className="relative">
               <div className="overflow-hidden rounded-3xl">
                 <img
-                  src="/about.webp"
+                  src="./about.webp"
                   alt="Flow fix MEP team on site"
                   loading="lazy"
                   className="h-[480px] w-full object-cover"

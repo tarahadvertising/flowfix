@@ -8,7 +8,7 @@ export default function Logo({ className = "", compact = false }) {
       className={cn("group inline-flex items-center gap-2.5", className)}
     >
       <img
-        src="/flowfix.svg"
+        src="./flowfix.svg"
         alt="Flow fix"
         className={cn(
           "h-9 w-auto transition-transform group-hover:scale-105",
