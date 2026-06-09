@@ -52,7 +52,6 @@ export default function Contact() {
     setForm(initialState);
     setTimeout(() => setSent(false), 5000);
   };
-
   const items = [
     { icon: HiOutlineMapPin, label: "Visit Us", value: siteConfig.address },
     {
@@ -62,22 +61,10 @@ export default function Contact() {
       href: `mailto:${siteConfig.email}`,
     },
     {
-      icon: HiOutlineEnvelope,
-      label: "Email Us (2)",
-      value: siteConfig.email2,
-      href: `mailto:${siteConfig.email2}`,
-    },
-    {
       icon: HiOutlinePhone,
       label: "Call Us",
       value: siteConfig.phone,
       href: `tel:${siteConfig.phone}`,
-    },
-    {
-      icon: HiOutlinePhone,
-      label: "Call Us (2)",
-      value: siteConfig.phone2,
-      href: `tel:${siteConfig.phone2}`,
     },
     {
       icon: HiOutlineClock,

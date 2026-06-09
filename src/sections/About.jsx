@@ -72,7 +72,6 @@ export default function About() {
               plumbing, fire fighting and extra low current systems for
               residential, commercial and industrial buildings.
             </motion.p>
-
             {/* mission / vision / values */}
             <motion.div
               variants={fadeUp}
@@ -101,54 +100,13 @@ export default function About() {
           </motion.div>
         </div>
 
-        {/* timeline section */}
-        <motion.div
-          variants={stagger(0.1)}
-          initial="hidden"
-          whileInView="show"
-          viewport={viewportOnce}
-          className="mt-24"
-        >
-          <div className="text-center">
-            <span className="heading-eyebrow">Our Journey</span>
-          </div>
-
-          <div className="relative mt-14">
-            {/* horizontal line on desktop */}
-            <div className="absolute top-[19px] left-0 hidden h-px w-full bg-gradient-to-r from-transparent via-gold/40 to-transparent lg:block" />
-
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-              {aboutTimeline.map((t, i) => (
-                <motion.div key={t.year} variants={fadeUp} className="relative">
-                  {/* dot */}
-                  <div className="flex items-center gap-4 lg:block lg:text-center">
-                    <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gold-gradient text-xs font-bold text-navy-900 lg:mx-auto">
-                      {i + 1}
-                    </span>
-                    <div className="lg:mt-6 lg:text-center">
-                      <div className="font-display text-lg font-semibold text-white">
-                        {t.title}
-                      </div>
-                      <div className="mt-1 text-xs uppercase tracking-[0.2em] text-gold">
-                        {t.year}
-                      </div>
-                      <p className="mt-3 text-sm leading-relaxed text-navy-400">
-                        {t.description}
-                      </p>
-                    </div>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </motion.div>
         {/* CTA */}
         <motion.div
           variants={fadeUp}
           initial="hidden"
           whileInView="show"
           viewport={viewportOnce}
-          className="mt-20 text-center"
+          className="mt-16 flex justify-center lg:mt-20"
         >
           <a href="#services" className="btn-primary group inline-flex">
             <span>Explore Our Services</span>

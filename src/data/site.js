@@ -4,10 +4,8 @@ export const siteConfig = {
   tagline: "Technical & MEP Works Contractor",
   description:
     "Flow fix technical & MEP works LLC delivers mechanical, electrical, plumbing and technical contracting services for commercial, industrial and residential projects.",
-  email: "ak@flowfixeng.com",
-  email2: "rm@flowfixeng.com",
-  phone: "+971 58 101 7595",
-  phone2: "+971 58 101 7597",
+  email: "rm@flowfixeng.com",
+  phone: "+971 58 101 7597",
   address:
     "Al Hamra Building Ground Floor A19 Bnks Vision Business Center, Near Musically Al Karama, Dubai – UAE",
   social: {
@@ -21,8 +19,5 @@ export const navLinks = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
-  { label: "Projects", href: "#projects" },
-  { label: "Industries", href: "#industries" },
-  { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
 ];

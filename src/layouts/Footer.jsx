@@ -49,7 +49,6 @@ export default function Footer() {
               ))}
             </div>
           </div>
-
           <div className="md:col-span-2">
             <h4 className="font-display text-sm font-semibold uppercase tracking-[0.2em] text-white">
               Quick Links
@@ -67,7 +66,6 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-
           <div className="md:col-span-3">
             <h4 className="font-display text-sm font-semibold uppercase tracking-[0.2em] text-white">
               Services
@@ -103,12 +101,6 @@ export default function Footer() {
                   >
                     {siteConfig.email}
                   </a>
-                  <a
-                    href={`mailto:${siteConfig.email2}`}
-                    className="transition-colors hover:text-gold"
-                  >
-                    {siteConfig.email2}
-                  </a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -119,12 +111,6 @@ export default function Footer() {
                     className="transition-colors hover:text-gold"
                   >
                     {siteConfig.phone}
-                  </a>
-                  <a
-                    href={`tel:${siteConfig.phone2}`}
-                    className="transition-colors hover:text-gold"
-                  >
-                    {siteConfig.phone2}
                   </a>
                 </div>
               </li>
